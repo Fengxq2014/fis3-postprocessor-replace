@@ -6,9 +6,23 @@ npm install fis-postpackager-replace -g
 fis-conf
 ```
 fis.match('*.js', {
-    postprocessor: fis.plugin('replace',{
-        reg:'{api-url}',
-        str:'192.168.10.1'
+    postprocessor: fis.plugin('replace', {
+        files: [
+            {
+                path: "/js/controllers/login.js",
+                rule:{
+                    '{api-url}|i': '/json/login.json',
+                    '{api-u}':'GET'
+                }
+            },
+            {
+                path:"/js/controllers/lists.js",
+                rule:{
+                    '{api-url}':'192.168.10.0',
+                    '{api-u}':'345'
+                }
+            }
+        ]
     })
 })
 ```

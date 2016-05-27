@@ -1,6 +1,6 @@
 {
   "name": "fis3-postprocessor-replace",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "fis3 replace plugin",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "replace"
   ],
   "author": "DefNed",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Fengxq2014/fis3-postprocessor-replace/issues"
   },
