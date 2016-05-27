@@ -1,0 +1,23 @@
+{
+  "name": "fis3-postprocessor-replace",
+  "version": "1.0.0",
+  "description": "fis3 replace plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fengxq2014/fis3-postprocessor-replace.git"
+  },
+  "keywords": [
+    "fis3",
+    "replace"
+  ],
+  "author": "DefNed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fengxq2014/fis3-postprocessor-replace/issues"
+  },
+  "homepage": "https://github.com/Fengxq2014/fis3-postprocessor-replace#readme"
+}
