@@ -1,7 +1,7 @@
 ### 本插件将会根据配置替换字符串，适用于打包规则
 
 ```
-npm install fis-postpackager-replace -g
+npm install fis3-postprocessor-replace -g
 ```
 fis-conf
 ```
