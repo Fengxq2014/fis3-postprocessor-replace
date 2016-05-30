@@ -18,7 +18,7 @@ fis.match('*.js', {
             {
                 path:"/js/controllers/lists.js",
                 rule:{
-                    '{api-url}':'192.168.10.0',
+                    '{api-url}|ig':'192.168.10.0',
                     '{api-u}':'345'
                 }
             }
@@ -26,3 +26,4 @@ fis.match('*.js', {
     })
 })
 ```
+这样配置的话，将在编译阶段根据正则替换`/js/controllers/login.js`和`/js/controllers/lists.js`对应的`{api-url}`和`{api-u}`。
