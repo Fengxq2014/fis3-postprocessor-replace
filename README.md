@@ -1,3 +1,4 @@
+[![NPM](https://nodei.co/npm/fis3-postprocessor-replace.png?downloads=true)](https://nodei.co/npm/fis3-postprocessor-replace/)
 ### 本插件将会根据配置替换字符串，适用于打包规则
 
 ```
